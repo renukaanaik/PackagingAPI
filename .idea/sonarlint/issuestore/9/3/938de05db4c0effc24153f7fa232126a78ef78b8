@@ -1,0 +1,6 @@
+
+Hsquid:S1612",Replace this lambda with a method reference.(Î˜¡¯8šÍ™Úô.
+Zsquid:S2130">Use "Double.parseDouble" for this string-to-double conversion.(‘ï³8šÍ™Úô.
+Zsquid:S2130">Use "Double.parseDouble" for this string-to-double conversion.(ÿº³Â8šÍ™Úô.
+osquid:S1602"SRemove useless curly braces around statement and then remove useless return keyword(æÅÏ8šÍ™Úô.
+Zsquid:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(ôœÉıÿÿÿÿ8šÍ™Úô.
