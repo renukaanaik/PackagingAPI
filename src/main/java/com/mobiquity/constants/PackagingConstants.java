@@ -13,4 +13,6 @@ public class PackagingConstants {
   public static final String MAX_ITEMS_ALLOWED_MSG = "Max Item limit exceeded";
   public static final String PER_ITEM_WEIGHT_LIMIT_MSG = "Per Item Weight limit exceeded.";
   public static final String PER_ITEM_PRICE_LIMIT_MSG = "Per Item Price limit exceeded.";
+
+  public static final String ERROR_READING_FILE = "Error while reading input file";
 }

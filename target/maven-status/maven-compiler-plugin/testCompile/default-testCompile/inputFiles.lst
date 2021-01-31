@@ -1,4 +1,8 @@
-C:\Users\renuk\projects\Mobiquity\src\test\java\com.mobiquity.packer\PackageItemsImplTest.java
+C:\Users\renuk\projects\Mobiquity\src\test\java\com.mobiquity.packer\rules\CheckItemQuantityTest.java
+C:\Users\renuk\projects\Mobiquity\src\test\java\com.mobiquity.packer\rules\CheckItemWeightAndPriceTest.java
+C:\Users\renuk\projects\Mobiquity\src\test\java\com.mobiquity.packer\rules\FilterItemsTest.java
 C:\Users\renuk\projects\Mobiquity\src\test\java\com.mobiquity.packer\PackerTest.java
+C:\Users\renuk\projects\Mobiquity\src\test\java\com.mobiquity.packer\rules\CheckContainerWeightTest.java
 C:\Users\renuk\projects\Mobiquity\src\test\java\com.mobiquity.packer\utils\ItemHelperTest.java
 C:\Users\renuk\projects\Mobiquity\src\test\java\com.mobiquity.packer\ItemProcessorTest.java
+C:\Users\renuk\projects\Mobiquity\src\test\java\com.mobiquity.packer\MockContainer.java

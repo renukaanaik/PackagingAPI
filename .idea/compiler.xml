@@ -13,4 +13,9 @@
       <module name="implementation" target="8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="implementation" options="" />
+    </option>
+  </component>
 </project>

@@ -1,9 +1,12 @@
 com\mobiquity\constants\PackagingConstants.class
 com\mobiquity\model\Item.class
 com\mobiquity\utils\ItemHelper.class
+com\mobiquity\packer\rules\PackageRules.class
+com\mobiquity\packer\rules\CheckItemQuantity.class
 com\mobiquity\packer\Packer.class
 com\mobiquity\exception\APIException.class
-com\mobiquity\packer\PackageItemsImpl.class
+com\mobiquity\packer\rules\CheckContainerWeight.class
 com\mobiquity\model\ItemContainer.class
+com\mobiquity\packer\rules\FilterItems.class
 com\mobiquity\packer\ItemProcessor.class
-com\mobiquity\packer\PackageItems.class
+com\mobiquity\packer\rules\CheckItemWeightAndPrice.class

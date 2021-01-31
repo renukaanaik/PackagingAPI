@@ -1,9 +1,12 @@
+C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\packer\rules\CheckItemWeightAndPrice.java
 C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\utils\ItemHelper.java
+C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\packer\rules\CheckContainerWeight.java
 C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\packer\ItemProcessor.java
+C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\packer\rules\PackageRules.java
+C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\packer\rules\CheckItemQuantity.java
 C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\exception\APIException.java
 C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\model\Item.java
 C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\constants\PackagingConstants.java
 C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\model\ItemContainer.java
-C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\packer\PackageItemsImpl.java
 C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\packer\Packer.java
-C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\packer\PackageItems.java
+C:\Users\renuk\projects\Mobiquity\src\main\java\com\mobiquity\packer\rules\FilterItems.java

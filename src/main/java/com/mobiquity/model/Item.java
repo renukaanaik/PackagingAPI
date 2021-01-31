@@ -1,11 +1,18 @@
 package com.mobiquity.model;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import java.math.BigDecimal;
 
 /**
  * Model class to hold items
  * @author Renuka Naik
  */
+@Getter
+@Setter
+@NoArgsConstructor
 public class Item {
 
     private int itemIndex;
@@ -17,33 +24,4 @@ public class Item {
       this.itemWeight = itemWeight;
       this.itemPrice = itemPrice;
     }
-
-  public int getItemIndex() {
-    return itemIndex;
-  }
-
-  public void setItemIndex(int itemIndex) {
-    this.itemIndex = itemIndex;
-  }
-
-  public double getItemWeight() {
-    return itemWeight;
-  }
-
-  public void setItemWeight(double itemWeight) {
-    this.itemWeight = itemWeight;
-  }
-
-  public BigDecimal getItemPrice() {
-    return itemPrice;
-  }
-
-  public void setItemPrice(BigDecimal itemPrice) {
-    this.itemPrice = itemPrice;
-  }
-
-  @Override
-  public String toString() {
-    return "("+itemIndex+", "+itemWeight+", "+itemPrice +")\n";
-  }
 }

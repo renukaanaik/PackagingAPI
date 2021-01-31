@@ -3,6 +3,7 @@ package com.mobiquity.utils;
 import com.mobiquity.exception.APIException;
 import com.mobiquity.model.Item;
 import com.mobiquity.model.ItemContainer;
+import lombok.extern.slf4j.Slf4j;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
@@ -11,17 +12,21 @@ import java.util.stream.Collectors;
 
 /**
  * Helper class
+ *
  * @author Renuka Naik
  */
+@Slf4j
 public class ItemHelper {
 
-  /**
-   * This method parses input line from the file and throws APIException for invalid data
-   * @param line line from input file
-   * @return Object of ItemContainer to be processed further
-   * @throws APIException Application Specific Exception
-   */
+    /**
+     * This method parses input line from the file and throws APIException for invalid data
+     *
+     * @param line line from input file
+     * @return Object of ItemContainer to be processed further
+     * @throws APIException Application Specific Exception
+     */
     public ItemContainer parseItem(String line) throws APIException {
+        log.debug("Parsing Items : " + line);
         ItemContainer container = new ItemContainer();
         try {
             String[] weightAndItemsArr = line.split(":");
@@ -39,16 +44,18 @@ public class ItemHelper {
             container.setItemList(itemsList.stream().toArray(Item[]::new));
             container.setWeightLimit(weightLimit);
         } catch (NumberFormatException nfe) {
+            log.error(" Error Parsing Items : " + nfe.getMessage());
             throw new APIException("Invalid Input file", nfe);
         }
         return container;
     }
 
-  /**
-   * This method build Item object to be added to container's item list
-   * @param data String array with input data
-   * @return Item object
-   */
+    /**
+     * This method build Item object to be added to container's item list
+     *
+     * @param data String array with input data
+     * @return Item object
+     */
     private Item buildItem(String[] data) {
         int itemIndex = Integer.valueOf(data[0].trim());
         double itemWeight = Double.valueOf(data[1].trim());

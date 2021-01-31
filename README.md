@@ -28,6 +28,11 @@ The total weight is less than or equal to the package limit and the total cost i
 2. Max number of items in a package is 15
 3. Max weight and cost of an item is ≤ 100
 
+<b> Architecture </b>
+
+This Api is build on Chain of responsibility pattern where the package constrains are implementented
+in the form of rules. Each implementation class of interface PackageRules depicts one rule and is executed in particular order.
+
 <b> Technology Stack </b>
 * Java 8
 * JUnit

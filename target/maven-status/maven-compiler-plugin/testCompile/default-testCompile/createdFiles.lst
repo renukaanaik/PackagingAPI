@@ -1,4 +1,8 @@
 com\mobiquity\packer\ItemProcessorTest.class
-com\mobiquity\packer\PackageItemsImplTest.class
+com\mobiquity\packer\MockContainer.class
 com\mobiquity\packer\utils\ItemHelperTest.class
+com\mobiquity\packer\rules\CheckContainerWeightTest.class
+com\mobiquity\packer\rules\CheckItemQuantityTest.class
+com\mobiquity\packer\rules\FilterItemsTest.class
 com\mobiquity\packer\PackerTest.class
+com\mobiquity\packer\rules\CheckItemWeightAndPriceTest.class

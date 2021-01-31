@@ -37,7 +37,7 @@ public class ItemHelperTest {
         ItemContainer container = helper.parseItem(inputLine);
     }
 
-   /* @Test
+    @Test
     public void parseItem_extraCharsInInput() throws APIException {
         String inputLine = " 81 : (1,53.38,€45) ((2,88.62,€98) (3,78.48,€3) (4,72.30,€76) (5,30.18,€9) (6,46.34,€48)";
         ItemContainer container = helper.parseItem(inputLine);
@@ -45,7 +45,7 @@ public class ItemHelperTest {
         Assert.assertNotNull(container);
         Assert.assertEquals(6,container.getItemList().length);
         Assert.assertEquals(81,container.getWeightLimit(),0);
-    }*/
+    }
 
     @Test(expected = APIException.class)
     public void parseItem_pricemissing() throws APIException {
